@@ -1,0 +1,236 @@
+@media only screen and (min-width: 2560px)
+
+  .feature
+    .glyph
+      flex: 1
+      max-width: 30%
+
+  .gallery
+    .container-fluid
+      justify-content: center
+
+    .photo
+      margin-bottom: 50px
+      margin-left: 25px
+
+  .staff
+    .container-fluid
+      break
+        display: none
+
+    .employee
+      margin-left: 50px
+
+  .img-responsive
+    flex: 0
+
+@media only screen and (min-width: 1441px) and (max-width: 2559px)
+
+  .staff
+    .container-fluid
+      .break
+        display: none
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px)
+
+  .feature
+    .container-fluid
+      .glyph
+        max-width: 33%
+
+      .break
+        display: none
+
+  .staff
+    .container-fluid
+      break
+        display: none
+
+  .gallery
+    .container-fluid
+      break
+        display: none
+
+    .photo
+      &:last-child
+        margin-left: 200px
+
+  .staff
+    .container-fluid
+      .break
+        display: none
+
+@media only screen and (min-width: 767px) and (max-width: 1024px)
+
+  .feature
+    .container-fluid
+      .break
+        display: none
+
+  .client
+    .container-fluid
+      display: inline-grid
+      padding: 0 50px
+
+  .staff
+    .container-fluid
+      flex-flow: none
+      flex-wrap: nowrap
+
+
+@media only screen and (min-width: 768px)
+
+  .staff
+    .container-fluid
+      .employee
+        .fa-facebook
+          &:hover
+            background-color: $i-facebook
+            color: $white
+
+    .fa-twitter
+
+      &:hover
+        background-color: $i-twitter
+        color: $white
+
+    .fa-linkedin-square
+
+      &:hover
+        background-color: $i-linkedin
+        color: $white
+
+  .share
+
+    .fa-facebook
+
+      &:hover
+        background-color: $white
+        color: $i-facebook
+
+    .fa-twitter
+
+      &:hover
+        background-color: $white
+        color: $i-twitter
+
+    .fa-linkedin
+
+      &:hover
+        background-color: $white
+        color: $i-linkedin
+
+@media only screen and (min-width: 426px ) and (max-width: 768px)
+
+  .navbar-brand
+    line-height: 50px
+    margin: 0 auto
+    padding-left: 0
+
+    img
+      padding-top: 5px
+
+  .navbar-nav>li>a
+    line-height: 60px
+    padding: 0 10px 0 0
+
+    &::before
+      content: '|'
+
+@media only screen and (max-width: 768px)
+
+  .client
+    .container-fluid
+      display: inherit
+
+
+@media only screen and (max-width: 425px)
+
+  .jumbotron
+    padding-bottom: 0
+
+    .container-fluid
+      display: inherit
+
+    .container-text
+      padding: 50px 0 0
+
+      p
+        font-size: 16px
+        padding: 0 10px
+
+      br
+        display: none
+
+      h1
+        line-height: 32px
+
+  .client
+    padding-bottom: 25px
+
+    .container-fluid
+      display: inherit
+
+  [class*='slide']
+    min-height: 250px
+
+  .carousel-content
+    p
+      font-size: 14px
+      line-height: 24px
+
+  .gallery
+    .photo
+      img
+        max-width: 358px
+
+  .contact
+    .container-fluid
+      display: inherit
+      padding: 30px 0
+
+    .location
+      padding-bottom: 25px
+
+      p
+        line-height: 16px
+        padding-right: 0
+
+    .share
+      padding-bottom: 25px
+
+      h4
+        margin-bottom: 10px
+
+    .about
+      h4
+        margin-bottom: 10px
+
+      p
+        line-height: 16px
+        padding: 0 25px
+
+        br
+          display: none
+
+  .download
+    padding-bottom: 0
+
+    h1
+      text-align: center
+
+  .feature
+    padding: 30px 0 0
+
+  .staff
+    .container-fluid
+      .employee
+        padding-bottom: 50px
+
+
+@media only screen and (max-width: 320px)
+
+  .navbar-brand
+    img
+      padding-left: 0
+
