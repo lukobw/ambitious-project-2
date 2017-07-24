@@ -477,7 +477,9 @@ footer {
 
   .staff .container-fluid {
     flex-flow: initial;
-    flex-wrap: nowrap; } }
+    flex-wrap: nowrap; }
+    .staff .container-fluid img {
+      max-width: 240px; } }
 @media only screen and (min-width: 1024px) {
   .staff .container-fluid .employee .fa-facebook:hover {
     background-color: #3b5998;
