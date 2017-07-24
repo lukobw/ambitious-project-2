@@ -74,11 +74,10 @@
 
   .staff
     .container-fluid
-      flex-flow: none
+      flex-flow: initial
       flex-wrap: nowrap
 
-
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 1024px)
 
   .staff
     .container-fluid
@@ -119,6 +118,22 @@
       &:hover
         background-color: $white
         color: $i-linkedin
+
+  .feature
+    .container-fluid
+      img
+        &:hover
+          transform: rotate(360deg)
+          transition-duration: .5s
+          transition-property: transform
+
+  .gallery
+    .photo
+      .cover
+        &:hover
+          opacity: 1
+
+
 
 @media only screen and (min-width: 426px ) and (max-width: 768px)
 

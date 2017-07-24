@@ -37,7 +37,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none; }
 
 table {
@@ -91,7 +91,7 @@ table {
       text-transform: uppercase; }
       .jumbotron .container-text .btn:hover {
         background-color: #d73434;
-        transition: .4s ease-in-out; }
+        transition: 0.4s ease-in-out; }
 
 .navbar-default {
   background-color: inherit;
@@ -110,7 +110,7 @@ table {
   font-family: "Raleway", sans-serif;
   font-size: 13px;
   font-weight: 700;
-  opacity: .75;
+  opacity: 0.75;
   padding: 20px;
   text-transform: uppercase; }
 
@@ -118,7 +118,7 @@ table {
   background-color: #1d203c;
   color: #fff;
   height: 100%;
-  transition: .5s linear; }
+  transition: 0.5s linear; }
 
 .nav li {
   color: #000;
@@ -166,43 +166,39 @@ table {
       font-size: 14px;
       font-weight: 400;
       line-height: 21px; }
-    .feature .container-fluid img:hover {
-      transform: rotate(360deg);
-      transition-duration: .5s;
-      transition-property: transform; }
 
 .flex-1 {
-  width: 8.3333333333%; }
+  width: 8.33333%; }
 
 .flex-2 {
-  width: 16.6666666667%; }
+  width: 16.66667%; }
 
 .flex-3 {
   width: 25%; }
 
 .flex-4 {
-  width: 33.3333333333%; }
+  width: 33.33333%; }
 
 .flex-5 {
-  width: 41.6666666667%; }
+  width: 41.66667%; }
 
 .flex-6 {
   width: 50%; }
 
 .flex-7 {
-  width: 58.3333333333%; }
+  width: 58.33333%; }
 
 .flex-8 {
-  width: 66.6666666667%; }
+  width: 66.66667%; }
 
 .flex-9 {
   width: 75%; }
 
 .flex-10 {
-  width: 83.3333333333%; }
+  width: 83.33333%; }
 
 .flex-11 {
-  width: 91.6666666667%; }
+  width: 91.66667%; }
 
 .flex-12 {
   width: 100%; }
@@ -221,7 +217,7 @@ table {
     position: relative; }
     .gallery .photo img {
       height: 100%;
-      margin: .5px;
+      margin: 0.5px;
       max-width: 469px; }
       .gallery .photo img:last-child {
         margin-right: 0; }
@@ -234,9 +230,7 @@ table {
       right: 0;
       text-align: center;
       top: 0;
-      transition: ease .5s; }
-      .gallery .photo .cover:hover {
-        opacity: 1; }
+      transition: ease 0.5s; }
     .gallery .photo .layer {
       left: 0;
       position: absolute;
@@ -273,7 +267,7 @@ table {
   .staff .container-fluid p {
     color: #6c7279;
     font-family: "Raleway", sans-serif;
-    font-size: .14px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     max-width: 270px;
@@ -377,7 +371,6 @@ table {
 
 .contact p:first-child {
   opacity: 1; }
-
 .contact .container-fluid {
   align-items: flex-start;
   background-color: #3a3e64;
@@ -402,7 +395,7 @@ table {
     font-size: 14px;
     font-weight: 400;
     line-height: 23px;
-    opacity: .5;
+    opacity: 0.5;
     padding-right: 20px; }
   .contact .container-fluid i {
     background-color: rgba(255, 255, 255, 0);
@@ -441,47 +434,51 @@ footer {
   .feature .glyph {
     flex: 1;
     max-width: 30%; }
+
   .gallery .container-fluid {
     justify-content: center; }
   .gallery .photo {
     margin-bottom: 50px;
     margin-left: 25px; }
+
   .staff .container-fluid break {
     display: none; }
   .staff .employee {
     margin-left: 50px; }
+
   .img-responsive {
     flex: 0; } }
-
 @media only screen and (min-width: 1441px) and (max-width: 2559px) {
   .staff .container-fluid .break {
     display: none; } }
-
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
   .feature .container-fluid .glyph {
     max-width: 33%; }
   .feature .container-fluid .break {
     display: none; }
+
   .staff .container-fluid break {
     display: none; }
+
   .gallery .container-fluid break {
     display: none; }
   .gallery .photo:last-child {
     margin-left: 200px; }
+
   .staff .container-fluid .break {
     display: none; } }
-
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
   .feature .container-fluid .break {
     display: none; }
+
   .client .container-fluid {
     display: inline-grid;
     padding: 0 50px; }
-  .staff .container-fluid {
-    flex-flow: none;
-    flex-wrap: nowrap; } }
 
-@media only screen and (min-width: 768px) {
+  .staff .container-fluid {
+    flex-flow: initial;
+    flex-wrap: nowrap; } }
+@media only screen and (min-width: 1024px) {
   .staff .container-fluid .employee .fa-facebook:hover {
     background-color: #3b5998;
     color: #fff; }
@@ -491,6 +488,7 @@ footer {
   .staff .fa-linkedin-square:hover {
     background-color: #0077b5;
     color: #fff; }
+
   .share .fa-facebook:hover {
     background-color: #fff;
     color: #3b5998; }
@@ -499,8 +497,15 @@ footer {
     color: #1da1f2; }
   .share .fa-linkedin:hover {
     background-color: #fff;
-    color: #0077b5; } }
+    color: #0077b5; }
 
+  .feature .container-fluid img:hover {
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+    transition-property: transform; }
+
+  .gallery .photo .cover:hover {
+    opacity: 1; } }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   .navbar-brand {
     line-height: 50px;
@@ -508,16 +513,15 @@ footer {
     padding-left: 0; }
     .navbar-brand img {
       padding-top: 5px; }
+
   .navbar-nav > li > a {
     line-height: 60px;
     padding: 0 10px 0 0; }
     .navbar-nav > li > a::before {
-      content: '|'; } }
-
+      content: "|"; } }
 @media only screen and (max-width: 768px) {
   .client .container-fluid {
     display: inherit; } }
-
 @media only screen and (max-width: 425px) {
   .jumbotron {
     padding-bottom: 0; }
@@ -532,17 +536,22 @@ footer {
         display: none; }
       .jumbotron .container-text h1 {
         line-height: 32px; }
+
   .client {
     padding-bottom: 25px; }
     .client .container-fluid {
       display: inherit; }
+
   [class*='slide'] {
     min-height: 250px; }
+
   .carousel-content p {
     font-size: 14px;
     line-height: 24px; }
+
   .gallery .photo img {
     max-width: 358px; }
+
   .contact .container-fluid {
     display: inherit;
     padding: 30px 0; }
@@ -562,19 +571,20 @@ footer {
     padding: 0 25px; }
     .contact .about p br {
       display: none; }
+
   .download {
     padding-bottom: 0; }
     .download h1 {
       text-align: center; }
+
   .feature {
     padding: 30px 0 0; }
+
   .staff .container-fluid .employee {
     padding-bottom: 50px; } }
-
 @media only screen and (max-width: 320px) {
   .navbar-brand img {
     padding-left: 0; } }
-
 * {
   box-sizing: border-box; }
 
